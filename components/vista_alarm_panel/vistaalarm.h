@@ -270,7 +270,7 @@ class vistaECPHome : public time::RealTimeClock
       uint8_t inputMon = 0;
       uint8_t auiAddr = 0;
       // bool activeAuiAddr=false;
-      bool sendAuiTime();
+      //bool sendAuiTime();
       // bool sendAuiTime(int year, int month, int day, int hour, int minute,int seconds,int dow);
       char auiSeq = 8;
       void processAuiQueue();
