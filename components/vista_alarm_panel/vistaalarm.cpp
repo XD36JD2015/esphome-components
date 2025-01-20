@@ -389,7 +389,7 @@ namespace esphome
         switch (auiCmd.state)
         {
         case rsdate:
-          sendAuiTime();
+        //  sendAuiTime();
           break;
         case rsopenzones:
           sendZoneRequest();
@@ -414,7 +414,7 @@ namespace esphome
             auiQueue.push(c);
         }
         else
-          sendAuiTime();
+          //sendAuiTime();
       }
       if (vistaCmd.statusFlags.programMode || auiAddr)
         return;
