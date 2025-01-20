@@ -963,7 +963,7 @@ void vistaECPHome::setup()
       return true;
     }
     */
-
+/*
     bool vistaECPHome::sendAuiTime()
     {
       ESPTime rtc = now();
@@ -981,7 +981,7 @@ void vistaECPHome::setup()
       vista.writeDirect(bytes, auiAddr, sizeof(bytes) - 1);
       return true;
     }
-
+*/
     void vistaECPHome::sendZoneRequest()
     {
       if (!auiAddr || !(auiCmd.state == rsopenzones || auiCmd.state == rsbypasszones) || auiCmd.pending)
