@@ -413,9 +413,9 @@ namespace esphome
           if (auiQueue.size() < 5)
             auiQueue.push(c);
         }
-        else
-          //sendAuiTime();
-      }
+//        else
+//          sendAuiTime();
+//      }
       if (vistaCmd.statusFlags.programMode || auiAddr)
         return;
       ESPTime rtc = now();
