@@ -400,7 +400,7 @@ namespace esphome
       }
     }
 
-    void vistaECPHome::set_panel_time()
+/*    void vistaECPHome::set_panel_time()
     {
 #if defined(USE_TIME)
 
@@ -415,7 +415,7 @@ namespace esphome
         }
         else
           break;
-          //sendAuiTime();
+          sendAuiTime();
       }
       if (vistaCmd.statusFlags.programMode || auiAddr)
         return;
@@ -437,6 +437,7 @@ namespace esphome
 
 #endif
     }
+*/
     /*
 void vistaECPHome::set_panel_time_manual(int year, int month, int day, int hour, int minute,int seconds, int dow)
     {
