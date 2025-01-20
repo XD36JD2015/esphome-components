@@ -489,7 +489,7 @@ void vistaECPHome::setup()
 
 #endif
 #if defined(USE_API)
-      register_service(&vistaECPHome::set_panel_time, "set_panel_time", {});
+//      register_service(&vistaECPHome::set_panel_time, "set_panel_time", {});
       register_service(&vistaECPHome::alarm_keypress, "alarm_keypress", {"keys"});
       register_service(&vistaECPHome::send_cmd_bytes, "send_cmd_bytes", {"addr", "hexdata"});
       register_service(&vistaECPHome::alarm_keypress_partition, "alarm_keypress_partition", {"keys", "partition"});
